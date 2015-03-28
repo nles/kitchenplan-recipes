@@ -1,0 +1,34 @@
+recipes:
+    global:
+        - dotfiles::gitconfig
+        - applications::sass
+        - applications::ssh_config
+        - dotfiles::vim
+        - applications::composer
+        - dotfiles::workspace
+attributes:
+    homebrewalt:
+        apps:
+            - git
+            - git-extras
+            - wget
+            - pwgen
+            - xmlstarlet
+            - pv
+            - htop-osx
+            - git-flow
+            - siege
+            - watch
+        cask_apps:
+            #- imageoptim
+            #- imagealpha
+            #- sequel-pro
+            #- sourcetree
+            #- recordit
+    nodejs:
+        apps:
+            #- cordova
+            #- ionic
+            - bower
+            - grunt
+            - grunt-cli

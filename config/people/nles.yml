@@ -1,13 +1,46 @@
 groups:
-    - groupa
+    - bash
+    - osx
+    - developer 
+
 recipes:
-    mac_os_x:
-        - osxdefaults::set_computer_name
+    global:
+        - dotfiles::sshconfig
+
 attributes:
+    dotfiles:
+        vimusers:
+            - root
+            - nles 
+        kdeploy:
+            hostname: dev
+        vim:
+            bundle:
+                - sleuth: git://github.com/tpope/vim-sleuth.git
+                - sensible: git://github.com/tpope/vim-sensible.git
+                - gitgutter: git://github.com/airblade/vim-gitgutter.git
+                - airline: https://github.com/bling/vim-airline
+                - syntastic: git://github.com/scrooloose/syntastic.git
+                - nerdtree: https://github.com/scrooloose/nerdtree.git
+                - vim-css-color: https://github.com/ap/vim-css-color
+    git:
+        name: Nikke 
+        email: nileskel@gmail.com
     osxdefaults:
-        computername: MyComputerName
+        computername: nles-MBP 
+    authorization:
+        sudo:
+            users:
+                - nles 
+            passwordless: true
+            include_sudoers_d: true
     homebrewalt:
-        apps:
-            - git-extras
         cask_apps:
-            - sourcetree
+            - spotify
+            - alfred
+            - virtualbox
+
+    #nodejs:
+    #    apps:
+    #        - pageres
+    #        - gh
