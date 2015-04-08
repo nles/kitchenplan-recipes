@@ -1,0 +1,54 @@
+Host alpha.ymme.info
+  IdentityFile ~/.ssh/alphaprodine.pem
+  User www-admin
+
+Host mail.ymme.info
+  IdentityFile ~/.ssh/anileridine.pem
+  User ubuntu
+
+Host 54.155.180.78
+  IdentityFile ~/.ssh/anileridine.pem
+  User ubuntu
+
+Host pippuri.net
+  Port 2222
+
+host pupkee.ymme.info
+  IdentityFile ~/.ec2/difenoxin
+
+host likiliikkuja.ymme.info
+  IdentityFile ~/.ec2/difenoxin
+
+host store.ymme.info
+  IdentityFile ~/.ec2/difenoxin
+
+# REPO MACHINE
+ Host 46.137.189.177
+  IdentityFile ~/.ssh/pupkee.pem
+  User ec2-user
+
+# KURENTO MACHINE
+Host 54.171.218.111
+  IdentityFile ~/.ssh/kurento.pem
+  User ubuntu
+
+# Host 54.247.69.86
+  # IdentityFile ~/.ssh/anileridine.pem
+  # User ubuntu
+
+# Host 54.228.236.199
+#  IdentityFile ~/.ssh/alphaprodine.pem
+#  User ubuntu
+
+Host 46.137.100.199
+#  IdentityFile ~/.ssh/anileridine.pem
+  IdentityFile ~/.ssh/alphaprodine.pem
+  User ubuntu
+#  User www-admin
+
+Host 23.21.191.164
+  IdentityFile ~/.ssh/carfentanyl.pem
+  User ubuntu
+
+#Host *
+## SendEnv LANG LC_*

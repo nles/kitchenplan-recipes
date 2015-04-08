@@ -1,10 +1,10 @@
 recipes:
     global:
         - dotfiles::gitconfig
-        - applications::sass
-        - applications::ssh_config
-        - dotfiles::vim
-        - applications::composer
+#        - applications::sass
+#        - applications::ssh_config
+#        - dotfiles::vim
+#        - applications::composer
         - dotfiles::workspace
 attributes:
     homebrewalt:

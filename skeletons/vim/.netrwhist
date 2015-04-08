@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/nles/.vim/bundle'
+let g:netrw_dirhist_2='/Users/nles/Dropbox/NEW/utu_remote/cpl/kooditunti/boilerplate'
+let g:netrw_dirhist_3='/Users/nles/Dropbox/NEW/utu_remote/cpl/kooditunti/node-sass-example/sass'
+let g:netrw_dirhist_4='/private/tmp/error_mailer'
+let g:netrw_dirhist_5='/Users/nles/Dropbox/NEW/utu_remote/pcgd/try2/pcgd15/unity/Assets/Scenes/zoo'
+let g:netrw_dirhist_6='/Users/nles/Dropbox/NEW/utu_remote/DIT/code/kooditunti/current/public/blockly-games/appengine/index'
+let g:netrw_dirhist_7='/Users/nles/Dropbox/NEW/utu_remote/DIT/code/results/config/deploy'
