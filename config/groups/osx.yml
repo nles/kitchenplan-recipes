@@ -89,3 +89,4 @@ recipes:
         - osxdefaults::enable_full_keyboard_access_for_all_controls
         - osxdefaults::tap_to_click
         - osxdefaults::increase_sound_quality_for_bluetooth_headphones
+        - osxdefaults::disable_natural_scrolling

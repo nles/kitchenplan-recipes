@@ -42,8 +42,10 @@ attributes:
             - libreoffice
             - todoist
             - firefox
-            - mvim
-            - googledrive
+            - google-drive
+            - macvim
+            - bettertouchtool
+            - adobe-reader
 
     #nodejs:
     #    apps:
